@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{amsmath} % necessário para o ambiente equation
+\begin{document}
+
+Equação linear:
+\begin{equation}
+    ax + b = 0
+\end{equation}
+
+Equação quadrática:
+\begin{equation}
+    ax^2 + bx + c = 0
+\end{equation}
+
+\end{document}
+
+NOW FOR EQUATIONS ENUMERATS;
+
+\documentclass{article}
+\usepackage{amsmath} % necessário para o ambiente equation*
+\begin{document}
+
+Equação linear sem número:
+\begin{equation*}
+    ax + b = 0
+\end{equation*}
+
+Equação quadrática sem número:
+\begin{equation*}
+    ax^2 + bx + c = 0
+\end{equation*}
+
+\end{document}
+
+FOR ULTILIZATIONS OF SYMBOLS MATHS
+
+\documentclass{article}
+\begin{document}
+
+A fórmula quadrática é dada por \( ax^2 + bx + c = 0 \).
+
+A fórmula quadrática também pode ser escrita como \[ ax^2 + bx + c = 0 \].
+
+\end{document}
